@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 1px;
+    margin-bottom: 15px;
+}
+h2 {
+    display: inline-block;
+    padding: 0;
+    font-size: 18px;
+    margin-top: 60px;
+    margin: 60px auto 30px;
+}
+dl {
+    margin: 0;
+    padding: 0;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 0;
+}
+header {
+    width: 1000px;
+    margin: 60px auto 0;
+}
+header h1 img {
+    width: 180px;
+}
+#main {
+    width: 1000px;
+    margin: 0 auto;
+}
+#main-visual {
+    width: 1000px;
+    margin-bottom: 60px;
+}
+#index {
+    width: 680px;
+    background-color: #F5F5F5;
+    margin: 0 auto 60px;
+    padding: 0 60px 60px 60px;
+    text-align: center;
+}
+#index-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #333;
+}
+#index-list ol li {
+    margin-bottom: 20px;
+}
+#index-list ol li:last-child {
+    margin-bottom: 0;
+}
+.flexBox {
+    width: 800px;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul li {
+    width: 48.7%;
+    margin-bottom: 15px;
+}
+ul li img {
+    width: 100%;
+}
+#detail {
+    background-color: #F5F5F5;
+    width: 800px;
+    height: 323px;
+    margin: 0 auto 75px;
+    text-align: center;
+}
+#detail-text {
+    text-align: left;
+    padding: 0 70px 0 60px;
+}
+#detail-l {
+    flex-grow: 1;
+    padding-right: 40px;
+    border-right: 1px solid #333;
+}
+#detail-l dt,
+#detail-l dd {
+    text-align: left;
+}
+#detail-l dd {
+    margin-bottom: 10px;
+}
+#detail-l dd:last-child {
+    margin-bottom: 0;
+}
+#detail-r {
+    flex-grow: 2;
+    padding-left: 40px;
+}
+#detail-r p {
+    width: 392px;
+    word-wrap: break-word;
+}
+#detail-r a,
+#detail-r a:hover,
+#detail-r a:active,
+#detail-r a:visited {
+    color: #333;
+}
+footer {
+    font-size: 10px;
+    text-align: center;
+}
